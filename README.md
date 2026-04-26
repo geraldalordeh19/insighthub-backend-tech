@@ -8,15 +8,15 @@ InsightHub is a centralized digital platform for Academic City University studen
 
 ## Deployment Link
 
-- **Backend API (Render):** `https://insighthub-backend.onrender.com`
-- **Frontend (GitHub Pages):** `https://YOUR_USERNAME.github.io/insighthub-frontend`
+- **Backend API (Render):** `https://insighthub-backend-tech.onrender.com`
+- **Frontend (GitHub Pages):** `https://geraldalordeh19.github.io/insighthub-frontend`
 
 ## Login Details (Test Accounts)
 
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@insighthub.com | admin123 |
-| Student | student@insighthub.com | student123 |
+| Admin | admin@test.com | admin123 |
+| Student | student@test.com | student123 |
 
 > To create the admin account: register normally, then run this SQL on your DB:
 > `UPDATE users SET role = 'admin' WHERE email = 'admin@insighthub.com';`
